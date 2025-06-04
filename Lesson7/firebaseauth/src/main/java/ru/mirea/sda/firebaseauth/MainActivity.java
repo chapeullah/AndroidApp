@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             updateUI(mAuth.getCurrentUser());
 
-                            // Переход на InfoActivity
                             Intent intent = new Intent(MainActivity.this, InfoActivity.class);
                             startActivity(intent);
                         } else {

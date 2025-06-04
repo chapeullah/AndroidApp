@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
             try {
                 Socket socket = new Socket(HOST, PORT);
                 BufferedReader reader = SocketUtils.getReader(socket);
-                reader.readLine(); // игнорируем первую строку
-                result = reader.readLine(); // считываем вторую
+                reader.readLine();
+                result = reader.readLine();
                 socket.close();
             } catch (IOException e) {
                 Log.e(TAG, "Ошибка при получении времени", e);
