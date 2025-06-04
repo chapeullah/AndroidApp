@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658549808153",
+    "project_id": "fir-auth-19658",
+    "storage_bucket": "fir-auth-19658.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658549808153:android:2e5128740127e11ae41e88",
+        "android_client_info": {
+          "package_name": "ru.mirea.sda.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHkwfACMNmC6tZBGW9cFLErLXn_PyeAW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
